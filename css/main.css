@@ -17,9 +17,9 @@ canvas {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	width: 500px;
-	height: 700px;
-	border-radius: 80px;
+	width: 600px;
+	height: 800px;
+	border-radius: 120px;
 	overflow: hidden;
 }
 .player .main {
@@ -102,7 +102,7 @@ canvas {
 	text-align: center;
 	height: 20px;
 	line-height: 20px;
-	background: black;
+	background: whitesmoke;
 }
 .player .player-list .toggle-list i.fa {
 	color:rgb(156, 52, 52);
@@ -124,7 +124,7 @@ canvas {
 .player .list .item {
 	display: flex;
 	padding: 5px 0px;
-	border-bottom: 1px solid #222;
+	border-bottom: 1px solid #262626;
 	cursor: pointer;
 }
 .player .list .item .thumbnail {
@@ -143,7 +143,7 @@ canvas {
 	padding: 0px 10px;
 }
 .player .list .item .details h2 {
-	color: #eee;
+	color: black;
 	font-size: 16px;
 }
 .player .list .item .details p {
@@ -152,7 +152,7 @@ canvas {
 }
 .player .player-list::-webkit-scrollbar {
 	width: 5px;
-	background: #222;
+	background: #262626;
 }
 .player .player-list::-webkit-scrollbar-thumb {
 	background: green;
