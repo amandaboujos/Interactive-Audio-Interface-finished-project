@@ -22,10 +22,10 @@ canvas {
 	border-radius: 120px;
 	overflow: hidden;
 }
-.player .main {
+.player .main{
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(90deg, black, #302e2e);
+	background: linear-gradient(90deg,black, #302e2e);
 	transition:all 500ms ease-in-out;
 }
 .player .main .thumbnail img {
