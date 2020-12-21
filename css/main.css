@@ -163,3 +163,10 @@ canvas {
 .player.activeSongList .main {
 	filter:blur(5px);
 }
+@media (max-width: 414px) {
+    .player {
+        min-height: 100vh;
+        border-radius: 0px;
+        padding: 75px 30px;
+    }
+}
