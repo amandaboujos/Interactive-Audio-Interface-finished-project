@@ -167,6 +167,6 @@ canvas {
     .player {
         min-height: 100vh;
         border-radius: 0px;
-        padding: 75px 30px;
+        padding: 60px 30px;
     }
 }
